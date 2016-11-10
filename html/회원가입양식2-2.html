@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <fieldset>
+    <legend>필수입력입니다.</legend>
+      <form action="index.html" method="post">
+        <table border="1" width="1000">
+          <caption>개인회원 가입</caption>
+          <colgroup>
+            <col width="200" />
+            <col width="800" />
+          </colgroup>
+          <tbody>
+            <tr>
+              <th><label for="userid">회원아이디</label></th>
+              <td>
+                <input type="text" id="userid" placeholder="아이디 입력" />
+                <input type="button" value="아이디중복조회" />
+                <span>(영문자 또는 숫자, 4~15자리)</span>
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="pw">비밀번호</label></th>
+              <td><input type="password" id="pw" placeholder="비밀번호 입력" />
+              <span>변경 시에만 입력하십시오.(영문자 또는 숫자, 4~12자리)</span>
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="pw2">비밀번호 확인</label></th>
+              <td><input type="password" id="pw2" placeholder="비밀번호 확인" /></td>
+            </tr>
+            <tr>
+              <th><label for="username">회원성명</label></th>
+              <td><input type="text" id="username" />
+              <span>(한글 8자이내, 영문 16자이내 입력)</span>
+            </td>
+            </tr>
+
+            <tr>
+              <th><label for="card_n">주민등록번호</label></th>
+              <td>
+                <input type="text" id="card_n" />
+                <input type="password" />
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="ph1">전화번호</label></th>
+              <td>
+                <select name="" id="ph1">
+                  <option value="">02</option>
+                  <option value="">031</option>
+                  <option value="">041</option>
+                </select>
+                <input type="text" />
+                <input type="text" />
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="ph2">휴대폰번호</label></th>
+              <td>
+                <select name="" id="ph2">
+                  <option value="">011</option>
+                  <option value="">010</option>
+                  <option value="">070</option>
+                </select>
+                <input type="text" />
+                <input type="text" />
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="ad">주소</label></th>
+              <td>
+                <input type="text" id="ad" />
+                <input type="text" />
+                <input type="button" value="우편번호확인" />
+                <br />
+                <input type="text" />
+                <br />
+                <input type="text" />
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="email">E-mail</label></th>
+              <td>
+                <input type="text" id="email" />
+                <span>@</span>
+                <select>
+                  <option value="">naver.com</option>
+                  <option value="">nate.com</option>
+                  <option value="">daum.net</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="email2">참조E-mail</label></th>
+              <td>
+                <input type="text" id="email2" />
+                <span>@</span>
+                <select>
+                  <option value="">naver.com</option>
+                  <option value="">nate.com</option>
+                  <option value="">daum.net</option>
+                </select>
+                <br />
+                참조E-mail이란?
+                <br />ㄴ마으미나으;ㅣㅁ느ㅏㅇ;ㅣ믕;ㅣㅡㅁㄴ;ㅣ
+                <br />ㅁㄴ의므이믄인므;이ㅡㅁ;ㅣ으;ㅁ능;민
+              </td>
+            </tr>
+
+            <tr>
+              <th>한빌 부가서비스 안내수신</th>
+              <td>
+                <label for="sns">예</label>
+                <input type="radio" id="sns" name="sns" />
+                <label for="sns2">아니오</label>
+                <input type="radio" id="sns2" name="sns" />
+              </td>
+            </tr>
+
+            <tr>
+              <th><label for="reid">추천인아이디</label></th>
+              <td><input type="text" id="reid" /></td>
+            </tr>
+          </tbody>
+
+        </table>
+        <input type="submit" value="확인" />
+        <input type="reset" value="재입력" />
+      </form>
+
+  </fieldset>
+
+
+
+
+</body>
+</html>
