@@ -67,9 +67,9 @@
       일
       </select>
       <label for="bday2">양력</label>
-      <input type="radio" id="bday2" />
+      <input type="radio" id="bday2" name="bday" />
       <label for="bday3">음력</label>
-      <input type="radio" id="bday3" />
+      <input type="radio" id="bday3" name="bday" />
     </li>
    <li>
       <label for="email">이메일</label>
@@ -120,7 +120,7 @@
       </select>
     </li>
    <li>
-    <label for="way">가입경로</label>
+    <span>가입경로</span>
 
     <label for="way1">알바몬</label>
     <input type="radio" id="way1" name="way" />
@@ -146,11 +146,12 @@
 
     </li>
    <li>
-    <label for="membernb">재택근무사(정회원) 번호</label>
-    <span>정회원번호</span>
-    <input type="text" />
-    <span>정회원이름</span>
-    <input type="text" />
+    <span>재택근무사(정회원) 번호</span>
+    <label for="membernb1">정회원 번호</label>
+    <input type="text" id="membernb1" />
+    <label for="membernb2">정회원 이름</label>
+    <input type="text" id="membernb2" />
+
     </li>
     <span>홍보글을 보신 재택근무사(정회원)번호와 이름을 입력해주세요.<br />
     이름을 모르시면 정회원 번호만 기재하셔도 됩니다.</span>
