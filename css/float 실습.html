@@ -4,71 +4,74 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <style>
+  .guide_line{outline:1px green solid;}
+
   .all{
-    border:5px green solid;
     width:900px;
     height:540px;
+    margin:0 auto;
   }
 
   .top_1{
-    border:1px green solid;
+    margin:0 auto;
     width:840px;
     height:111px;
   }
 
-  .left_2{
-    border:1px red solid;
-    width:513px;
-    height:386px;
-    float:left;
+  .content{
+    width:840px;
+    height:380px;
+    margin:10px 30px 0 30px;
+  }
 
+  .left_2{
+    width:513px;
+    height:380px;
+    float:left;
   }
 
   .left_3{
-    border:1px blue solid;
     width:513px;
     height:130px;
+  }
 
-
+  .left_4{
+    width:513px;
+    height:240px;
+    float:left;
   }
 
   .left_4-1{
-    border:1px green solid;
-    width:513px;
+    width:162px;
     height:240px;
+    float:left;
+    margin-top: auto;
   }
 
+  .left_4-2{
+    width:351px;
+    height:240px;
+    margin-left:162px;
 
-
+  }
 
   .right_5{
-    border:3px red solid;
-    width:307px;
-    height:375px;
-    float: left;
+    margin-left:524px;
+    height:380px;
   }
 
   .right_6{
-    border:1px green solid;
-    width:307px;
     height:30px;
-
   }
 
   .right_7{
-    border:1px green solid;
-    width:307px;
     height:82px;
   }
 
-
-    .right_8{
-      border:1px green solid;
-      width:307px;
-      height:255px;
-    }
-
-
+  .right_8{
+    height:255px;
+    margin-top:13px;
+  }
 
 
 
@@ -76,19 +79,25 @@
   </style>
 </head>
 <body>
-  <div class="all">all
-    <div class="top_1">top_1</div>
+  <div class="all guide_line">
 
-    <div class="left_2">left_2</div>
-    <div class="right_5">right_5
-      <div class="right_6">right_6</div>
-      <div class="right_7">right_7</div>
-      <div class="right_8">right_8</div>
+    <div class="top_1 guide_line">
     </div>
-    <div class="left_3">left_3</div>
-    <div class="left_4-1">left_4-1</div>
 
-
+      <div class="content guide_line">
+        <div class="left_2 guide_line">
+          <div class="left_3 guide_line"></div>
+          <div class="left_4 guide_line">
+            <div class="left_4-1 guide_line"></div>
+            <div class="left_4-2 guide_line"></div>
+          </div>
+        </div>
+        <div class="right_5 guide_line">
+          <div class="right_6 guide_line"></div>
+          <div class="right_7 guide_line"></div>
+          <div class="right_8 guide_line"></div>
+        </div>
+      </div>
 
   </div>
 </body>
