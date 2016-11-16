@@ -4,80 +4,106 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <style>
+  ul li{list-style:none;}
+  *{margin:0; padding:0;}
   .guid_line{border:1px green solid;}
-  .wrapper{
-    width:900px;
-    height:540px;
-    margin:0 auto;
-  }
 
-  .header{
-    width:840px;
-    height:111px;
-    margin:0 auto;
-  }
+  .wrapper{width:900px; height:540px; margin:0 auto;}
 
-  .content{
-    width:840px;
-    height:380px;
-    margin-top:15px;
-    margin:0 auto;
-  }
+  .header{width:840px; height:111px; margin:0 auto;}
 
-  .left{
-    width:513px;
-    height:386px;
+  .logo{width:840px; height:111px; float:left;}
+
+  /*.banner{width:468px; height:60px;}*/
+
+  .content{width:840px; height:380px; margin-top:15px; margin:0 auto;}
+
+  .left{width:513px; height:386px; float:left;}
+
+  .wrapper .content .left .top{width:513px; height:130px;}
+
+  .wrapper .content .left .top img{width:100%;}
+
+  .wrapper .content .left .top span{
+    width:160px; height:94px;
+    display:block;
+    overflow:hidden;
     float:left;
+    margin-right:10px;
   }
 
-  .wrapper .content .left .top{
-    width:513px;
-    height:130px;
-  }
+  .wrapper .content .left .top strong{display: block; font-size:20px;}
 
-  .wrapper .content .left .bottom1{
-    width:162px;
-    height:240px;
-    float:left;
-  }
-  .wrapper .content .left .bottom2{
-    width:351px;
-    height:244px;
-    margin-left:162px;
-  }
+  .wrapper .content .left .top ul li{font-size:12px;}
 
-  .right{
-    width:307px;
-    height:375px;
-    margin-left: auto;
-  }
+  .wrapper .content .left .top p{margin-bottom:10px;}
 
-  .wrapper .content .right .top1{
-    width:307px;
-    height:30px;
-  }
+  .wrapper .content .left .bottom1{width:162px; height:240px; float:left;}
 
-  .wrapper .content .right .top2{
-    width:307px;
-    height:82px;
-  }
+  .left .bottom1 span{width:126px; height:78px; display: block; overflow: hidden; margin-left:18px; margin-top:2px;}
 
-  .wrapper .content .right .bottom{
-    width:307px;
-    height:255px;
-    margin-top:8px;
-  }
+  .left .bottom1 ul li{font-size:13px; margin:0 18px ;}
+
+  .left .bottom1 img{width:100%;}
+
+  .wrapper .content .left .bottom2{width:351px; height:244px; margin-left:162px;}
+
+  .wrapper .content .left .bottom2 ul{font-size:15px; line-height:25px;}
+
+  .right{width:307px; height:375px; margin-left:auto;}
+
+  .wrapper .content .right .top1{width:307px; height:30px;}
+
+  .wrapper .content .right .top2{width:307px; height:82px;}
+
+  .wrapper .content .right .bottom{width:307px; height:255px; margin-top:8px;}
 
   </style>
 </head>
 <body>
   <div class="wrapper guid_line">
-    <div class="header guid_line"></div>
+    <div class="header guid_line">
+      <div class="logo guid_line"><img src="http://static.naver.net/newsstand/up/2013/0813/nsd114836462.gif" alt="" /></div>
+      <!-- <div class="banner"><img src="http://adcreative.naver.com/ad3/1004/1004874/468_60_01475642087174.jpg" alt=""></div> -->
+    </div>
     <div class="content guid_line">
       <div class="left guid_line">
-        <div class="top guid_line"></div>
-        <div class="bottom1 guid_line"></div>
-        <div class="bottom2 guid_line"></div>
+        <div class="top guid_line">
+          <ul>
+            <li>
+              <strong>SKT·BMW, 세계 최초 5G 커넥티드카 시연</strong>
+              <span><img src="http://static.naver.net/newsstand/2016/1116/etnews/111725/001.jpg" alt=""></span>
+              <p>5세대(5G) 이동통신망으로 각종 사고와 교통 정체 등 도로 상황을 0.1초 만에 인식하고 UHD급 영상으로 실시간 전송하는 커넥티드카가 세계 최초로 시동을 걸었다. SK텔레...</p>
+          </li>
+          <li>[이슈분석]커넥티드카 `가속 중`</li>
+          <li>[이슈분석]커넥티드카 `가속 중`</li>
+          </ul>
+        </div>
+        <div class="bottom1 guid_line">
+          <ul>
+
+            <span><img src="http://static.naver.net/newsstand/2016/1116/etnews/111725/002.jpg" alt=""></span>
+
+          <li>애플, 최신 제품은 25만원짜리 포토북</li>
+
+            <span><img src="http://static.naver.net/newsstand/2016/1116/etnews/111725/003.jpg" alt=""></span>
+
+          <li>정부, 오늘부터 '대포폰' 직권해지</li>
+          </ul>
+        </div>
+        <div class="bottom2 guid_line">
+          <ul>
+            <li>간섭 카드도 물건너가나···KT, 800㎒ 고민 깊어진다</li>
+            <li>"포켓몬고, 곧 한국 서비스 한다"</li>
+            <li>[카드뉴스]미션:아스가르디아 '우주 국가'를 세워라</li>
+            <li>11번가, '110분 이내 무료배송' 프로모션 선보여</li>
+            <li>창조경제 45조 기술금융 대출, 부실심사 의혹</li>
+            <li>전기차 최대 7대 동시 충전…'개방형 충전소' 오픈</li>
+            <li>한국형전투기에 국산 SW통합관리솔루션 첫 적용</li>
+            <li>삼성 인수한 하만 주가 25% 이상 급등</li>
+            <li>“가벼운 맥주 한잔이 뇌졸중 예방에 탁월”</li>
+          </ul>
+        </div>
       </div>
       <div class="right guid_line">
         <div class="top1 guid_line"></div>
